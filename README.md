@@ -1,3 +1,3 @@
-# danika-pi.github.io
+# pokemon facts
 Website Project
 Pokemon Related Background Facts 
