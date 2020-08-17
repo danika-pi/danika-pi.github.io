@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keyword" content="Pokemon" />
+    <meta name="description" content="Pokemon Info and Anime Background" />
+
+    <title>Pokemon Generations/Seasons</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body> <!-- my navigation buttons -->
+    <div id="navigation">
+      <a href="index.html" class="button" role="button">Home Page</a>
+
+      <a href="seasons.html" class="button" role="button">Seasons</a>
+
+      <a href="variants.html" class="button" role="button">Shinies</a>
+
+      <a href="pokemon.html" class="button" role="button">Pokemon</a>
+
+      <a href="questions.html" class="button" role="button">Questionaire</a>
+    </div>
+    <h1> <!-- Forms for people to fill out  -->
+      Forms
+    </h1>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modak&display=swap"
+      rel="stylesheet"
+    />
+    
+    <div class="forms">
+      <form> <!-- First name and last name, nickname is fine too -->
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="Dan" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Smith" /><br /><br />
+        
+        <!-- questions about pokemon -->
+        <label for="fav">What is your favorite pokemon? </label><br />
+        <input
+          type="text"
+          id="favpoke"
+          name="favpoke"
+          value="pikachu"
+        /><br /><br />
+        <label for="fav">What is your favorite shiny pokemon? </label><br />
+        <input
+          type="text"
+          id="shiny"
+          name="shiny"
+          value="pikachu"
+        /><br /><br />
+
+        <label for="flen">Favorite legendary: </label><br />
+        <input type="text" id="flen" name="flen" value="Celebi" /><br />
+        <br />
+
+        <label for="char">Favorite anime character if applicable: </label><br />
+        <input type="radio" id="char" name="character" value="Misty" />
+        <label for="char1">Misty</label><br />
+        <input type="radio" id="char1" name="char1" value="Dawn" />
+        <label for="char2">Dawn</label><br />
+        <input type="radio" id="char2" name="character" value="Brock" />
+        <label for="char2">Brock</label><br />
+        <input type="radio" id="char3" name="char2" value="Max" />
+        <label for="char3">Iris</label><br />
+        <input type="radio" id="char4" name="char4" value="Max" />
+        <label for="char4">Max</label><br />
+        <input type="radio" id="other" name="char3" value="other" />
+        <label for="other">Other</label><br /><br />
+
+        <label for="gen"
+          >What is your favorite generation? Check ones that apply.</label
+        ><br />
+
+        <input type="checkbox" name="gen1" value="Kanto" />
+        <label for="gen1"> Kanto</label><br />
+        <input type="checkbox" name="gen2" value="Johto" />
+        <label for="gen2"> Johto</label><br />
+        <input type="checkbox" name="gen3" value="Hoenn" />
+        <label for="gen3"> Hoenn</label><br />
+        <input type="checkbox" name="gen4" value="Sinnoh" />
+        <label for="gen4"> Kanto</label><br />
+        <input type="checkbox" name="gen5" value="Unova" />
+        <label for="gen5"> Unova</label><br />
+        <input type="checkbox" name="gen6" value="Kalos" />
+        <label for="gen6"> Kalos</label><br />
+        <input type="checkbox" name="gen7" value="Alola" />
+        <label for="gen5"> Alola</label><br />
+        <input type="checkbox" name="gen8" value="Gen VIII" />
+        <label for="gen8"> Gen VIII</label><br />
+        <br />
+        
+        <!-- gender question for data comparision -->
+        <label for="fav">What is your gender? </label><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other2" name="gender" value="none" />
+        <label for="other2">Prefer not to say.</label><br />
+        <input type="radio" id="other1" name="gender" value="other" />
+        <label for="other">Other</label><br /><br />
+
+        <!-- submit button -->
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <br />
+    <!--Links to the top of the page -->
+    <a href="#top">Back to top.</a>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
