@@ -1,0 +1,60 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image:url("https://cdn.glitch.com/7f1a98cf-dedc-4e2e-b462-4437ea2ea5db%2Fdf4e8ba28f912bf9cdf9fa0dfc196411.png?v=1596656011204");
+}
+
+h1{
+  font-family: 'Modak', cursive;
+  text-align:justify;
+  font-style: italic;
+  color: #E616E9;
+  font-weight:200;
+  font-size:2.5em;
+} /* changed font family, have the header as a 
+color: made color darker
+   */
+.plot
+{
+  color:purple;
+  font-style:italic;
+}
+h2{
+  font-family: 'Cookie';
+  font-size: 2.5em;
+  color:#E93C16;
+  text-align:justify;
+}/* changed font family, different font family from h1
+text aligned to be justfied at both right and left ends*/
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:1em;
+}
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #FB88B7;
+  width:auto;
+  
+} /*style it to look like a button to click on it*/
+.button:hover {
+   border-top-color: black;
+   background: #E7BDDA;
+   color: white;
+ } /*hover over button styling*/
+
+a:visited{
+  color:blue;
+}
+a:hover{
+  color: red;
+}
